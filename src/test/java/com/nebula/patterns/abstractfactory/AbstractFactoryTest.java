@@ -1,18 +1,16 @@
-package com.nebula.patterns;
+package com.nebula.patterns.abstractfactory;
 
-import com.nebula.patterns.abstractfactory.VendorAbstractFactory;
-import com.nebula.patterns.abstractfactory.Keyboard;
-import com.nebula.patterns.abstractfactory.Screen;
 import com.nebula.patterns.abstractfactory.impl.MBAVendorAbstractFactory;
 import com.nebula.patterns.abstractfactory.impl.MBPVendorAbstractFactory;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author chunyuliu
  */
-public class AbstractFactoryMain {
+public class AbstractFactoryTest {
 
-    public static void main(String[] args) {
-
+    @Test
+    public void mbpVendorTest() {
         // MBP
         VendorAbstractFactory mbpVendor = new MBPVendorAbstractFactory();
         // 显示器
@@ -25,7 +23,10 @@ public class AbstractFactoryMain {
 
         mbpKeyboard.kind();
         mbpKeyboard.press();
+    }
 
+    @Test
+    public void mbaVendorTest() {
         // MBA
         VendorAbstractFactory mbaVendor = new MBAVendorAbstractFactory();
         // 显示器
