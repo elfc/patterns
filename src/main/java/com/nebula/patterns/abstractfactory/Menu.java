@@ -1,21 +1,21 @@
 package com.nebula.patterns.abstractfactory;
 
 /**
- * 显示器对象接口
- * AbstractProductA
+ * 菜单接口
+ * AbstractProductB
  * @author chunyuliu
  */
-public interface Screen {
+public interface Menu {
 
     /**
-     * 类别
+     * 风格
      * @return
      */
-    String kind();
+    String style();
 
     /**
-     * 显示
+     * 菜单布局
      * @return
      */
-    String view();
+    String layout();
 }

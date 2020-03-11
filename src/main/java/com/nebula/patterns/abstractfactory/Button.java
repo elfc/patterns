@@ -1,21 +1,21 @@
 package com.nebula.patterns.abstractfactory;
 
 /**
- * 键盘接口
- * AbstractProductB
+ * 显示器对象接口
+ * AbstractProductA
  * @author chunyuliu
  */
-public interface Keyboard {
+public interface Button {
 
     /**
-     * 类别
+     * 风格
      * @return
      */
-    String kind();
+    String style();
 
     /**
-     * 可以敲键盘
+     * 点击
      * @return
      */
-    String press();
+    String click();
 }

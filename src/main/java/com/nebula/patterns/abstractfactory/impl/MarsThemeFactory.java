@@ -5,20 +5,19 @@ import com.nebula.patterns.abstractfactory.*;
 /**
  *
  * 实现创建具体产品对象操作
- * MBA具体操作
  * ConcreteFactory2
  *
  * @author chunyuliu
  */
-public class MBAVendorAbstractFactory implements VendorAbstractFactory {
+public class MarsThemeFactory implements ThemeFactory {
 
     @Override
-    public Screen createScreen() {
-        return new MBAScreen();
+    public Button createButton() {
+        return new MarsButton();
     }
 
     @Override
-    public Keyboard createKeyboard() {
-        return new MBAKeyboard();
+    public Menu createMenu() {
+        return new MarsMenu();
     }
 }

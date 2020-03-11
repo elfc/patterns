@@ -1,7 +1,7 @@
 package com.nebula.patterns.abstractfactory;
 
-import com.nebula.patterns.abstractfactory.impl.MBAVendorAbstractFactory;
-import com.nebula.patterns.abstractfactory.impl.MBPVendorAbstractFactory;
+import com.nebula.patterns.abstractfactory.impl.MarsThemeFactory;
+import com.nebula.patterns.abstractfactory.impl.PlanetThemeFactory;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -10,34 +10,32 @@ import org.junit.jupiter.api.Test;
 public class AbstractFactoryTest {
 
     @Test
-    public void mbpVendorTest() {
-        // MBP
-        VendorAbstractFactory mbpVendor = new MBPVendorAbstractFactory();
-        // 显示器
-        Screen mbpScreen = mbpVendor.createScreen();
-        // 键盘
-        Keyboard mbpKeyboard = mbpVendor.createKeyboard();
+    public void planetFactoryTest() {
+        // 地球主题工厂
+        ThemeFactory themeFactory = new PlanetThemeFactory();
+        // 按钮
+        Button button = themeFactory.createButton();
+        button.style();
+        button.click();
 
-        mbpScreen.kind();
-        mbpScreen.view();
-
-        mbpKeyboard.kind();
-        mbpKeyboard.press();
+        // 菜单
+        Menu menu = themeFactory.createMenu();
+        menu.style();
+        menu.layout();
     }
 
     @Test
-    public void mbaVendorTest() {
-        // MBA
-        VendorAbstractFactory mbaVendor = new MBAVendorAbstractFactory();
-        // 显示器
-        Screen mbaScreen = mbaVendor.createScreen();
-        // 电车
-        Keyboard mbaKeyboard = mbaVendor.createKeyboard();
+    public void marsFactoryTest() {
+        // 火星主题工厂
+        ThemeFactory themeFactory = new MarsThemeFactory();
+        // 按钮
+        Button button = themeFactory.createButton();
+        button.style();
+        button.click();
 
-        mbaScreen.kind();
-        mbaScreen.view();
-
-        mbaKeyboard.kind();
-        mbaKeyboard.press();
+        // 菜单
+        Menu menu = themeFactory.createMenu();
+        menu.style();
+        menu.layout();
     }
 }
