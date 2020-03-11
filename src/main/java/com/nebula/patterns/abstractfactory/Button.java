@@ -1,7 +1,7 @@
 package com.nebula.patterns.abstractfactory;
 
 /**
- * 显示器对象接口
+ * 按钮接口
  * AbstractProductA
  * @author chunyuliu
  */

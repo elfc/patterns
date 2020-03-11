@@ -7,37 +7,37 @@ package com.nebula.patterns.builder.classic;
  *
  * @author chunyuliu
  */
-public class MBALaptopBuilder implements LaptopBuilder {
+public class HighLaptopBuilder implements LaptopBuilder {
 
     private Laptop laptop;
 
-    public MBALaptopBuilder() {
+    public HighLaptopBuilder() {
         this.laptop = new Laptop();
     }
 
     @Override
     public void buildModel() {
-        laptop.setModel("MBA 13寸");
+        laptop.setModel("我是高配电脑");
     }
 
     @Override
     public void buildMonitor() {
-        laptop.setMonitor("普通显示屏");
+        laptop.setMonitor("Retina 显示屏");
     }
 
     @Override
     public void buildCPU() {
-        laptop.setCPU("I3");
+        laptop.setCPU("I9");
     }
 
     @Override
     public void buildMem() {
-        laptop.setMem("8GB");
+        laptop.setMem("128GB");
     }
 
     @Override
     public void buildDisk() {
-        laptop.setDisk("256GB");
+        laptop.setDisk("2T");
     }
 
     @Override

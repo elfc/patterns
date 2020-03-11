@@ -6,11 +6,11 @@ package com.nebula.patterns.builder.classic;
  *
  * @author chunyuliu
  */
-public class Director {
+public class Supplier {
 
     private LaptopBuilder laptopBuilder;
 
-    public Director(LaptopBuilder laptopBuilder) {
+    public Supplier(LaptopBuilder laptopBuilder) {
         this.laptopBuilder = laptopBuilder;
         laptopBuilder.buildModel();
         laptopBuilder.buildMonitor();

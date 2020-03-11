@@ -1,7 +1,7 @@
 package com.nebula.patterns.builder.classic;
 
 /**
- * 为创建一个Product对象的哥哥部件指定抽象接口
+ * 为创建一个Product对象的各个部件指定抽象接口
  * Builder
  *
  * @author chunyuliu
