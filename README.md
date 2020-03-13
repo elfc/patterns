@@ -9,6 +9,6 @@
 
 ## 工厂方法
 * [点我直达代码](https://github.com/elfc/patterns/tree/master/src/main/java/com/nebula/patterns/factorymethod)
-* Explain：<>
+* Explain：<https://www.jianshu.com/p/f7795298d664>
 
 
