@@ -14,3 +14,7 @@
 ## 原型
 * [点我直达代码](https://github.com/elfc/patterns/tree/master/src/main/java/com/nebula/patterns/prototype)
 * Explain：<https://www.jianshu.com/p/87244a164d93>
+
+## 原型
+* [点我直达代码](https://github.com/elfc/patterns/tree/master/src/main/java/com/nebula/patterns/singleton)
+* Explain：<https://www.jianshu.com/p/797a7f54193a>
