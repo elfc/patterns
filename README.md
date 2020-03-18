@@ -18,3 +18,8 @@
 ## 原型
 * [点我直达代码](https://github.com/elfc/patterns/tree/master/src/main/java/com/nebula/patterns/singleton)
 * Explain：<https://www.jianshu.com/p/797a7f54193a>
+
+## 适配器
+* [点我直达代码](https://github.com/elfc/patterns/tree/master/src/main/java/com/nebula/patterns/adapter)
+* Explain：<https://www.jianshu.com/p/4f862a9c2ea4>
+
