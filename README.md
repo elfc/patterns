@@ -26,3 +26,8 @@
 ## 适配器
 * [点我直达代码](https://github.com/elfc/patterns/tree/master/src/main/java/com/nebula/patterns/bridge)
 * Explain：<https://www.jianshu.com/p/42b3f0f3fbb3>
+
+## 组合
+* [点我直达代码](https://github.com/elfc/patterns/tree/master/src/main/java/com/nebula/patterns/composite)
+* Explain：<https://www.jianshu.com/p/0aada559e9f0>
+
